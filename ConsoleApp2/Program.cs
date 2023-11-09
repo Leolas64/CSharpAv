@@ -188,7 +188,6 @@ class Program
 
     static async Task Main()
     {
-        await Translate();
         string reponse = "";
         string action = "";
         do
