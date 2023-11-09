@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ConsoleApp2/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "13.0.3",
+          "Npm": "3.5.2"
+        },
+        "runtime": {
+          "ConsoleApp2.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Node.js/0.12.7": {},
+      "NoGit/0.1.0": {
+        "dependencies": {
+          "Node.js": "0.12.7"
+        }
+      },
+      "Npm/3.5.2": {
+        "dependencies": {
+          "NoGit": "0.1.0",
+          "Node.js": "0.12.7"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Node.js/0.12.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15c78ckXi3Zv6FWU5/1XrcIPiE+a+oK3xZLAEAHXWbHv2dy/ILBG2qGFPGW92dei3/JJ11mHWhB941tQ465A6w==",
+      "path": "node.js/0.12.7",
+      "hashPath": "node.js.0.12.7.nupkg.sha512"
+    },
+    "NoGit/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NJY9sH90rT75WF3fAf832poUntcnw+zLGxk1fQR01efWj+eLEpvLbXtLyY4V0Gr07avyJByvrewyqbf01MhJCQ==",
+      "path": "nogit/0.1.0",
+      "hashPath": "nogit.0.1.0.nupkg.sha512"
+    },
+    "Npm/3.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jj3UFTTDCAP38rhGvwMe+Wv5hbPjBwePzvwtX69CeEtZ9uiIWKGiZdvpGV0JGlti2INa7k7DuL1uRaOlQunA8w==",
+      "path": "npm/3.5.2",
+      "hashPath": "npm.3.5.2.nupkg.sha512"
+    }
+  }
+}
