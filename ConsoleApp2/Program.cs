@@ -48,7 +48,7 @@ class Program
 {
     static async Task Translate()
     {
-        string Translkey = "fd82baac3b184ef1907fc3bcc2d997e9";
+        string Translkey = "CLE-API-AZUR";
         string Translendpoint = "https://api.cognitive.microsofttranslator.com";
         string location = "francecentral";
         string args;
@@ -83,7 +83,7 @@ class Program
 
     static async Task Correc()
     {
-        string apiKey = "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";
+        string apiKey = "CLE-API-GPT";
         string endpoint = "https://api.openai.com/v1/chat/completions";
         string sendText;
         string[] args = new string[1];
