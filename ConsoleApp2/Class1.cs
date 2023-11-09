@@ -4,7 +4,7 @@ class wexrftcvyghubinjok
 {
     static async Task aznoiefianzkdsnmvlsurbiukdlbvisreuvsCorrec()
     {
-        string correcApiKey = "ddfe3fa18aca479980d501e429402754";
+        string correcApiKey = "CLEAZUR";
         string correcEndpoint = "https://corrector.cognitiveservices.azure.com/";
         string sendText;
         string correcLocation = "francecentral";
